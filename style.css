@@ -63,10 +63,6 @@ header {
     margin:0 1em;
 }
 
-header *{
-    filter: drop-shadow(0 0 5px white);
-}
-
 main {
     grid-area: 3 / 1 / 6 / 11;
     margin:0 1em;
