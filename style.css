@@ -35,8 +35,18 @@ grid-template-columns: repeat(10, 1fr);
 grid-auto-rows: minmax(3vh, auto);
 grid-column-gap: 0;
 grid-row-gap: 1em;
-background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9cbba6e5-cffe-4537-a24a-305b77e34fb7/dj5a3az-f63c3bf0-080d-4946-8383-b0d9ee58ca1a.png/v1/fill/w_1280,h_1112,q_80,strp/frutiger_aero_seamless_repeating_background_by_lonelycoconut_dj5a3az-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTExMiIsInBhdGgiOiIvZi85Y2JiYTZlNS1jZmZlLTQ1MzctYTI0YS0zMDViNzdlMzRmYjcvZGo1YTNhei1mNjNjM2JmMC0wODBkLTQ5NDYtODM4My1iMGQ5ZWU1OGNhMWEucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.5UFGUVq426JMAmvTkLaHtHoH4z22lDo6dHFNnLwXjdY);
+background-image: url(./img/bg.jpg);
 margin:0;
+}
+
+.logo  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height:3vmin;
 }
 
 .navbar {
@@ -163,7 +173,7 @@ footer { grid-area: 6 / 1 / 7 / 11; }
     margin: auto;
 }
 
-boton:hover{
+.boton:hover{
     cursor: pointer;
 }
 
